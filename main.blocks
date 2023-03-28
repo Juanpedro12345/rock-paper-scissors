@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="2J79Xaed@f_!uSn+W28?">hand</variable></variables><block type="pxt-on-start" id="Ff8XSgqy/aw3*Cq7f6UK" x="0" y="0"></block><block type="device_forever" id="C/;hM-|SeXy|qeqH-{v*" x="205" y="0"></block><block type="device_gesture_event" id="+d5%dNeOL8]Z-g:BVA$o" x="306" y="175"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="=U7p?QKH~(RQezcB5Pwt"><field name="VAR" id="2J79Xaed@f_!uSn+W28?">hand</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="c$nlRo4,~h:LH^30R$?V"><value name="min"><shadow type="math_number" id="b{1Y19$=#Bvev$V-+W#e"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="oN(qQN7QE:mQ]%bRup8{"><field name="NUM">10</field></shadow></value></block></value><next><block type="controls_if" id="T%]KSyo{,)s~~yh;//x|"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="^?!L2);{}LZi7oZ{#vW="><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="uzwr+Z{GIR%9MgqC-`e1"><field name="VAR" id="2J79Xaed@f_!uSn+W28?">hand</field></block></value><value name="B"><shadow type="math_number" id="QmXgw32HV]MY$~A{TB|]"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="=8TaV!5:KPb]IwepzXBL"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement><value name="IF1"><block type="variables_get" id="!^#GlTR_VfLR_SRtr+7~"><field name="VAR" id="2J79Xaed@f_!uSn+W28?">hand</field></block></value><statement name="DO1"><block type="device_show_leds" id="lvBL6-H/hVn=e3EOn%94"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="O6T}%:9V6?.{IH_sGX,5"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></statement></block></next></block></statement></block></xml>
